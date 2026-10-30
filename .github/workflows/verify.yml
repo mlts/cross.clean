@@ -6,7 +6,7 @@
 #    By: lucas <lucas@tsiaraso.com>                     +########+            #
 #                                                           +###+             #
 #    Created: 2026/10/30 09:26:00 by lucas                  ##+               #
-#    Updated: 2026/10/30 09:26:00 by lucas                 #+                 #
+#    Updated: 2026/10/30 09:48:36 by lucas                 #+                 #
 #                                                                             #
 # *************************************************************************** #
 
@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: cmake --build build --parallel
       - name: Test
-        run: ctest --test-dir build --output-on-failure
+        run: ctest --test-dir build -C Debug --output-on-failure
 
   adapters:
     runs-on: macos-latest
