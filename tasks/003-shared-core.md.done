@@ -1,0 +1,5 @@
+# Task 003: Shared C and C++ core — done
+
+The Todo domain, use cases, segregated ports, memory adapter, C ABI, native
+acceptance tests, sanitizer checks, and second-run idempotency gate are green.
+

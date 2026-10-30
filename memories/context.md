@@ -10,4 +10,6 @@
 - Documentation must include Mermaid architecture diagrams.
 - Plans, specs, reports, and tasks stay inside this repository.
 - Completed tasks retain an auditable `.md.done` task record.
+- GitHub CLI credentials were invalid and API access failed on 2026-10-30.
+- Local commits are ready; publication must resume after `gh auth login`.
 
