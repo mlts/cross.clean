@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "exactOptionalPropertyTypes": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "target": "es2022"
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
+

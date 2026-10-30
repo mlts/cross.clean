@@ -1,0 +1,12 @@
+[project]
+name = "todo-flet"
+version = "0.1.0"
+description = "Flet presentation adapter for the cross.clean Todo core"
+requires-python = ">=3.11"
+dependencies = ["flet==1.0.5"]
+
+[tool.ruff]
+line-length = 80
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]

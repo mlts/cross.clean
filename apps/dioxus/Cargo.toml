@@ -1,0 +1,16 @@
+[package]
+name = "todo-dioxus"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+build = "build.rs"
+
+[dependencies]
+dioxus = { version = "=0.7.0", default-features = false }
+todo-core = { path = "../../bindings/rust/todo-core" }
+
+[features]
+default = ["desktop"]
+desktop = ["dioxus/desktop"]
+mobile = ["dioxus/mobile"]
+web = ["dioxus/web"]

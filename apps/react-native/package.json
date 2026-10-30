@@ -1,0 +1,26 @@
+{
+  "name": "@cross-clean/react-native-todo",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-native": "0.88.1"
+  },
+  "devDependencies": {
+    "@react-native-community/cli": "latest",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.9.0"
+  },
+  "codegenConfig": {
+    "name": "TodoCoreSpec",
+    "type": "modules",
+    "jsSrcsDir": "src/specs"
+  }
+}
+

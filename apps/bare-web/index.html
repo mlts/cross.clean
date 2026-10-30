@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#183453">
+    <title>Todo</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header class="brand">
+        <img src="../../brand/logo-primary.svg" alt="" width="72">
+        <div>
+          <p class="eyebrow">One domain · every platform</p>
+          <h1>Todo</h1>
+        </div>
+      </header>
+      <form id="todo-form">
+        <label for="todo-title">What needs doing?</label>
+        <div class="composer">
+          <input id="todo-title" maxlength="120" required>
+          <button type="submit">Add</button>
+        </div>
+      </form>
+      <p id="todo-error" role="alert" aria-live="polite"></p>
+      <ul id="todo-list" aria-label="Todo items"></ul>
+    </main>
+    <script src="dist/todo_core.js"></script>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
+

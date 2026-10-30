@@ -1,0 +1,13 @@
+[package]
+name = "todo-core"
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+
+[lib]
+name = "todo_core"
+path = "src/lib.rs"
+
+[[test]]
+name = "status_contract"
+path = "../../../tests/rust/status_contract.rs"
